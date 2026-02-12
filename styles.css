@@ -1,8 +1,22 @@
-/*  your css code here. If applicable */
+/* Main container */
 #container {
-	margin: 20px;
-	font-size:20px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
 }
-a {
-	color: #f00;
+
+/* Before content */
+#container::before {
+    content: "Before Content";
+    color: #f00;
+    font-size: 20px;
+    display: block;
+}
+
+/* After content */
+#container::after {
+    content: "After Content";
+    color: #f00;
+    font-size: 20px;
+    display: block;
 }
