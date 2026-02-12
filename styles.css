@@ -2,16 +2,16 @@
     margin: 20px;
 }
 
-/* Before Element */
+/* Before content */
 #container::before {
-    content: "Before Element ";
+    content: "<<< ";
     color: #f00;
     font-size: 20px;
 }
 
-/* After Element */
+/* After content */
 #container::after {
-    content: " After Element";
+    content: " >>>";
     color: #f00;
     font-size: 20px;
 }
